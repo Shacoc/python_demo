@@ -1,18 +1,17 @@
 import requests
+import pandas as pd
+
+pd.set_option("expand_frame_repr", False)
 
 if __name__ == '__main__':
     pass
 
-
-
-url = "https://api.huobi.pro/v2/settings/common/currencies"
-
+url = "https://api.huobi.pro/market/history/kline?symbol=btcusdt&period=1day"
 
 resp = requests.get(url)
 
-print(resp)
+json = resp.json()["data"]
+data = pd.DataFrame(json)
 
 
-
-
-
+print(data)
