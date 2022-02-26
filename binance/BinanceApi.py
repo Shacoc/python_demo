@@ -151,5 +151,19 @@ if __name__ == '__main__':
 
     # print(binance.get_order("BTCUSDT"))
     data = binance.get_klines("BTCUSDT", Interval.DAY_1, Limit.INT_1000)
-    df = pandas.DataFrame(data)
+    df = pandas.DataFrame(data, columns={
+        'open_time': 0,
+        'open': 1,
+        'high': 2,
+        'low': 3,
+        'close': 4,
+        'volume': 5,
+        'close_time': 6,
+        'quote_volume': 7,
+        'trades': 8,
+        'taker_base_volume': 9,
+        'taker_quote_volume': 10,
+        'ignore': 11,
+
+    })
     df.to_csv('btc_day_klines.csv')
