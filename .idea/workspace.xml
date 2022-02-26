@@ -10,12 +10,270 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b59f878-bf6a-4198-9632-33ffe1bf2145" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cctx/ccxt_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binance/BinanceApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/binance/BinanceApi.py" afterDir="false" />
+    <list default="true" id="1b59f878-bf6a-4198-9632-33ffe1bf2145" name="Default Changelist" comment="save to csv">
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/.readthedocs.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/build/cleanup-old-tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/build/countries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/build/export-exchanges.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/build/fs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/build/transpile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/build/vss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/ccxt.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/ccxt.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/ccxt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/cleanup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/composer-install.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/dist/ccxt.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/gource.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/aax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/ascendex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/Exchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/Precise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/errorHierarchy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/crypto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/encode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/generic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/platform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/throttle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/base/functions/type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bequant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bibox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bigone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/binance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/binancecoinm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/binanceus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/binanceusdm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bit2c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitbank.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitbay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitbns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitcoincom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitfinex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitfinex2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitflyer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitforex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bithumb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitmart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitmex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitpanda.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitrue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitstamp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitstamp1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bittrex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bitvavo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bl3p.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/blockchaincom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/btcalpha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/btcbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/btcmarkets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/btctradeua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/btcturk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/buda.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bybit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/bytetrade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/cdax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/cex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinbase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinbaseprime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinbasepro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coincheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinfalcon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinmate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/coinspot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/crex24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/cryptocom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/currencycom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/delta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/deribit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/digifinex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/eqonex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/equos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/exmo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/flowbtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/fmfwio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/ftx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/ftxus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/gateio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/gemini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/hitbtc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/hitbtc3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/hollaex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/huobi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/huobijp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/huobipro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/idex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/independentreserve.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/indodax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/itbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/kraken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/kucoin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/kucoinfutures.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/kuna.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/latoken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/lbank.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/liquid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/luno.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/lykke.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/mercado.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/mexc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/ndax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/novadax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/oceanex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/okcoin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/okex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/okex5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/okx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/paymium.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/phemex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/poloniex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/probit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/qtrade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/ripio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/BN/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/crypto-js/crypto-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/curve/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/curve/edwards.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/curve/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/curve/mont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/curve/short.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/curves.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/ec/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/ec/key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/ec/signature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/eddsa/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/eddsa/key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/eddsa/signature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/precomputed/secp256k1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/elliptic/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/elliptic/lib/hmac-drbg/hmac-drbg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/fetch-ponyfill/fetch-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-fetch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/NodeRSA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/asn1/ber/errors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/asn1/ber/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/asn1/ber/reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/asn1/ber/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/asn1/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/encryptEngines/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/formats/components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/formats/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/formats/pkcs1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/formats/pkcs8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/libs/jsbn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/libs/rsa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/schemes/pkcs1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/schemes/schemes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/node-rsa/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/qs/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/qs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/qs/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/qs/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/static_dependencies/qs/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/stex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.balance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.borrowRate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.currency.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchBalance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchBorrowRate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchBorrowRates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchClosedOrders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchCurrencies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchDeposits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchFundingFees.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchFundingRateHistory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchL2OrderBook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchLedger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchLeverageTiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchMarketLeverageTiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchMarkets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchMyTrades.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchOHLCV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchOpenOrders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchOrderBook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchOrderBooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchOrders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchPositions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchStatus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchTicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchTickers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchTrades.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchTradingFees.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchTransactions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.fetchWithdrawals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.ledgerItem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.leverageTier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.loadMarkets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.market.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.ohlcv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.orderbook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.position.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.throttle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.ticker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.trade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/Exchange/test.transaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/functions/test.crypto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/functions/test.datetime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/functions/test.generic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/functions/test.number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/functions/test.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/functions/test.type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/base/test.base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/errors/test.InsufficientFunds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/errors/test.InvalidNonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/errors/test.InvalidOrder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/errors/test.OrderNotFound.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/test/test.timeout_hang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/therock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/tidebit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/tidex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/timex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/upbit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/vcc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/wavesexchange.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/wazirx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/whitebit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/woo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/xena.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/yobit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/zaif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/zb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/zipmex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/js/zonda.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ccxt/postinstall.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_demo.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +318,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -74,13 +332,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.BinanceApi">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,8 +460,17 @@
       <workItem from="1645427146762" duration="72000" />
       <workItem from="1645616838739" duration="1092000" />
       <workItem from="1645684916730" duration="1718000" />
-      <workItem from="1645775442328" duration="9154000" />
+      <workItem from="1645775442328" duration="9714000" />
+      <workItem from="1645867925159" duration="33000" />
     </task>
+    <task id="LOCAL-00001" summary="save to csv">
+      <created>1645867660242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645867660242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,12 +486,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="save to csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="save to csv" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="768" y="298" key="#Project_Structure" timestamp="1645867957087">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="768" y="298" key="#Project_Structure/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867957087" />
     <state x="744" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645617230101">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="744" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645617230101" />
+    <state x="1018" y="478" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1645867886570">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1018" y="478" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867886570" />
     <state x="1138" y="621" width="283" height="254" key="Github.ShareDialog" timestamp="1645690135507">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -231,25 +513,25 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="985" y="429" key="Github.UntrackedFilesDialog/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645690139645" />
-    <state width="2518" height="229" key="GridCell.Tab.0.bottom" timestamp="1645867349061">
+    <state width="2518" height="417" key="GridCell.Tab.0.bottom" timestamp="1645867921240">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="229" key="GridCell.Tab.0.bottom/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867349061" />
+    <state width="2518" height="417" key="GridCell.Tab.0.bottom/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867921240" />
     <state width="2518" height="361" key="GridCell.Tab.0.bottom/2560.203.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1645689392746" />
-    <state width="2518" height="229" key="GridCell.Tab.0.center" timestamp="1645867349059">
+    <state width="2518" height="417" key="GridCell.Tab.0.center" timestamp="1645867921239">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="229" key="GridCell.Tab.0.center/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867349059" />
+    <state width="2518" height="417" key="GridCell.Tab.0.center/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867921239" />
     <state width="2518" height="361" key="GridCell.Tab.0.center/2560.203.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1645689392745" />
-    <state width="2518" height="229" key="GridCell.Tab.0.left" timestamp="1645867349059">
+    <state width="2518" height="417" key="GridCell.Tab.0.left" timestamp="1645867921238">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="229" key="GridCell.Tab.0.left/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867349059" />
+    <state width="2518" height="417" key="GridCell.Tab.0.left/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867921238" />
     <state width="2518" height="361" key="GridCell.Tab.0.left/2560.203.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1645689392744" />
-    <state width="2518" height="229" key="GridCell.Tab.0.right" timestamp="1645867349060">
+    <state width="2518" height="417" key="GridCell.Tab.0.right" timestamp="1645867921239">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="229" key="GridCell.Tab.0.right/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867349060" />
+    <state width="2518" height="417" key="GridCell.Tab.0.right/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645867921239" />
     <state width="2518" height="361" key="GridCell.Tab.0.right/2560.203.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1645689392745" />
     <state x="789" y="356" key="SettingsEditor" timestamp="1645865822599">
       <screen x="0" y="0" width="2560" height="1440" />
@@ -269,9 +551,13 @@
     </state>
     <state x="1076" y="613" key="git4idea.remote.GitConfigureRemotesDialog/2560.178.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1645775873309" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_demo$ccxt_demo.coverage" NAME="ccxt_demo Coverage Results" MODIFIED="1645860843855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cctx" />
-    <SUITE FILE_PATH="coverage/python_demo$BinanceApi.coverage" NAME="BinanceApi Coverage Results" MODIFIED="1645867349051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binance" />
+    <SUITE FILE_PATH="coverage/python_demo$BinanceApi.coverage" NAME="BinanceApi Coverage Results" MODIFIED="1645867547748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/binance" />
     <SUITE FILE_PATH="coverage/python_demo$main.coverage" NAME="main Coverage Results" MODIFIED="1645689133608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_demo$huobiApi.coverage" NAME="huobiApi Coverage Results" MODIFIED="1645689916103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/huobi" />
   </component>
